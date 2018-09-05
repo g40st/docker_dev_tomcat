@@ -9,9 +9,11 @@ RUN rm -rf /usr/local/tomcat/webapps/examples && \
     mkdir /usr/local/tomcat/webapps/strichliste && \
     mkdir /home/user && \
     mkdir /home/user/project && \
+    mkdir /home/user/data && \
+    mkdir /home/user/data/backup && \
     ln -s /usr/local/tomcat/ /opt/
 
-# install the needed packages 
+# install the needed packages
 RUN apt-get update && apt-get install -y \
     openjdk-7-jdk   \
     apt-utils \
