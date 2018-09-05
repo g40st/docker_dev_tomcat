@@ -10,7 +10,7 @@ RUN rm -rf /usr/local/tomcat/webapps/examples && \
     mkdir /home/user && \
     mkdir /home/user/project && \
     mkdir /home/user/data && \
-    mkdir /home/user/data/backup && \
+    mkdir /home/user/backup && \
     ln -s /usr/local/tomcat/ /opt/
 
 # install the needed packages
